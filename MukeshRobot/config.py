@@ -7,14 +7,14 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 2145093972 # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_ID = 6494633110 # If you dont know, run the bot and do /id in your private chat with it, also an integer
     
-    SUPPORT_CHAT = "the_support_chat"  # Your own group for support, do not add the @
+    SUPPORT_CHAT = "its_Punjabi_Chat_Group"  # Your own group for support, do not add the @
     START_IMG = ""
     EVENT_LOGS = ()  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= ""
     # RECOMMENDED
-    DATABASE_URL = ""  # A sql database url from elephantsql.com
+    DATABASE_URL = "postgres://sdjswknf:RF8xa4egOVHWKAsN_f4h3sSYBIdAwnly@queenie.db.elephantsql.com/sdjswknf"  # A sql database url from elephantsql.com
     CASH_API_KEY = (
         ""  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
