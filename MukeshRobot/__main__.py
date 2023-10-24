@@ -75,20 +75,20 @@ PM_START_TEX = """
 
 
 PM_START_TEXT = """ 
-*HELLO* {} , 🥀
+*🙋𝐇ᴇʏ* {} , 🥀
 *๏ I'M {} SQUARE YOUR GROUP!
 THE MOST POWERFUL MANGMENT ➕ MUSIC & CHATBOT OR MANY MORE!*
 ➻ *ANY HELP VISIT @its_Punjabi_Chat_Group THANKS FOR USING AUJLA BOTS.*
-─────────────────
-   *➻ YOUR NUMBER»* {}
-   *➻ CHATS JION »* {}
-─────────────────
+➖➖➖➖➖➖➖➖➖➖➖
+   *📇 Sᴛᴀʀᴛ ➻* {} 𝐌ᴇᴍʙᴇʀ𝐬🎉
+   *👥𝐂ᴏᴍᴘʟᴇᴛᴇᴅ ➻* {} 𝐆ʀᴏᴜᴘ𝐬🪷
+➖➖➖➖➖➖➖➖➖➖➖
 """
 
 buttons = [
     [
         InlineKeyboardButton(text="🏡", url=f"https://t.me/its_Punjabi_Chat_Group"),
-        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text="🎧", callback_data="help|back"),
         InlineKeyboardButton(text="🙎", url=f"https://t.me/PB65_Aujla"),
         InlineKeyboardButton(text="🧑‍🤝‍🧑", url=f"tg://settings"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = f"""ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @PB65_Aujla ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @PunjabiChat_Group ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ @PB65_Aujla ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @its_Punjabi_Chat_Group ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -218,13 +218,13 @@ def start(update: Update, context: CallbackContext):
             time.sleep(0.4)
             lol.edit_text("👋")
             time.sleep(0.4)
-            lol.edit_text("💃")
+            lol.edit_text("😁")
             time.sleep(0.4)
-            lol.edit_text("❤")
+            lol.edit_text("😂")
             time.sleep(0.5)
-            lol.edit_text("⚡")
+            lol.edit_text("🤨")
             time.sleep(0.3)
-            lol.edit_text("ꜱᴛᴀʀᴛɪɴɢ... ")
+            lol.edit_text("😤")
             time.sleep(0.4)
             lol.delete()
             
@@ -385,7 +385,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text="🎧", callback_data="help|back"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/its_Punjabi_Chat_Group"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -416,7 +416,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text="🎧", callback_data="help|back"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/its_Punjabi_Chat_Group"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -458,16 +458,16 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="📕 Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
-                        InlineKeyboardButton(text="Mᴜsɪᴄ 🎧", callback_data="settings_back_helper")
+                        InlineKeyboardButton(text="🛟 Mᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
+                        InlineKeyboardButton(text="Mᴜsɪᴄ 🎵", callback_data="settings_back_helper")
                     ],
                     [
-                        InlineKeyboardButton(text="💁 Bᴀsɪᴄ ", callback_data="basic_help"),
+                        InlineKeyboardButton(text="🪶 Bᴀsɪᴄ ", callback_data="basic_help"),
                         InlineKeyboardButton(text="Exᴘᴇʀᴛ 👮", callback_data="expert_help")
                     ],
                     [
-                        InlineKeyboardButton(text="🍹 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
-                        InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back")
+                        InlineKeyboardButton(text="🗽 Aᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
+                        InlineKeyboardButton(text="• Hᴏᴍᴇ 🏡", callback_data="mukesh_back")
                     ],
                 ]
             ),
@@ -583,7 +583,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
             reply_markup=InlineKeyboardMarkup(
                 [ [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text="🎧", callback_data="help|back"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/its_Punjabi_Chat_Group"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -622,7 +622,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
                 ],
                  [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text="🎧", callback_data="help|back"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/its_Punjabi_Chat_Group"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
@@ -652,7 +652,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
                 [
                     [
         InlineKeyboardButton(text="🏡", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="🎧", callback_data="settings_back_helper"),
+        InlineKeyboardButton(text="🎧", callback_data="help|back"),
         InlineKeyboardButton(text="➕", url=f"https://t.me/its_Punjabi_Chat_Group"),
         InlineKeyboardButton(text="🧑‍💻", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="🖥️", callback_data="Main_help"),
